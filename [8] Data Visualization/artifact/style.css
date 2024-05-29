@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#map {
+  height: 180px;
+}
+
+#mapid {
+  height: 800px;
+  width: 800px;
+}
+
+#forimg > img {
+  z-index: 10000;
+  position: absolute;
+  top: 40%;
+  left: 1%;
+  opacity:85%;
+  border-radius: 15px;
+  box-shadow: 0 0 4px 1px dimgray;
+}
+
+#title {
+  height: 50px;
+  width: 600px;
+  font-family:arial;
+  font-weight: 700;
+  color:white;
+  background-color:dimgray;
+  padding:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:absolute;
+  top:1%;
+  left:5%;
+  opacity:85%;
+  z-index:9999;
+}
